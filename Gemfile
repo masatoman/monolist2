@@ -56,5 +56,6 @@ group :development, :test do
   gem 'spring'
 
   gem 'pry-rails'
+  
+  gem 'rakuten_web_service'
 end
-
