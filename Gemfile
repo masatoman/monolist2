@@ -58,4 +58,5 @@ group :development, :test do
   gem 'pry-rails'
   
   gem 'rakuten_web_service'
+  gem 'pry-byebug', group: :development
 end

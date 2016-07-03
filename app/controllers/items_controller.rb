@@ -10,6 +10,7 @@ class ItemsController < ApplicationController
       )
       @items = response.first(20)
     end
+    # binding.pry
   end
 
   def show
