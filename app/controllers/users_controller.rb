@@ -16,7 +16,6 @@ class UsersController < ApplicationController
   
   def show
     @items = @user.items.group('items.id')
-    binding.pry
   end
 
   private
