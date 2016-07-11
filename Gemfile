@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
+# 本番ではpostgressを使用する
+gem 'pg', group: :production
+  
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,7 +59,6 @@ group :development, :test do
   gem 'spring'
 
   gem 'pry-rails'
-  
   gem 'rakuten_web_service'
-  gem 'pry-byebug', group: :development
+  gem 'pry-byebug'
 end
